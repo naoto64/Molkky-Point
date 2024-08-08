@@ -1,0 +1,51 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row div:not(#point):not(#sum):not(#button) {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    flex-basis: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    user-select: none;
+}
+
+.row div[data-toggle="0"] {
+    background-color: #663300;
+    border-color: #cc9900;
+    color: white;
+}
+
+.row div[data-toggle="1"] {
+    background-color: white;
+    border-color: #663300;
+    color: black;
+}
+
+#point, #sum {
+    font-size: 54px;
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#sum::before{
+    content: "合計得点：";
+}
+
+#point::before{
+    content: "得点：";
+}
+
+#button {
+    width: 400px;
+    height: 75px;
+    font-size: 36px;
+}

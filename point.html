@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>得点</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="row">
+        <div id="sum" contenteditable="true">0</div>
+    </div>
+    <div class="row">
+        <div id="point" contenteditable="true">0</div>
+    </div>
+    <div class="row">
+        <input type="button" value="合計得点に反映" id="button" onclick="sumButtonClick()">
+    </div>
+    <P></P>
+    <div class="row">
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">7</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">9</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">8</div>
+    </div>
+    <div class="row">
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">5</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">11</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">12</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">6</div>
+    </div>
+    <div class="row">
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">3</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">10</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">4</div>
+    </div>
+    <div class="row">
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">1</div>
+        <div onclick="molkkyClick(this)" data-toggle="0" class="molkky">2</div>
+    </div>
+</body>
+</html>
