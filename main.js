@@ -23,3 +23,10 @@ function sumButtonClick(){
     }
     document.getElementById("point").textContent = "0";
 }
+
+function resetButtonClick(){
+    for(var i = 0; i < 12; i++){
+        document.getElementsByClassName("molkky").item(i).dataset.toggle = "0";
+    }
+    document.getElementById("point").textContent = "0";   
+}
