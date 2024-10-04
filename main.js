@@ -2,7 +2,7 @@
 
 function molkkyClick(e){
     if(e.dataset.toggle == "0"){
-        if(Number(document.getElementById("point").textContent) == 0){
+        if(Number(document.getElementById("point").textContent) != 0){
             for(var i = 0; i < 12; i++){
                 document.getElementsByClassName("molkky").item(i).dataset.toggle = "0";
             }
