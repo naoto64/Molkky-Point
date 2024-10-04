@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.row div:not(#point):not(#sum):not(#button) {
+.row div:not(#point):not(#sum):not(#reset_button):not(#sum_button) {
     font-size: 36px;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
     content: "得点：";
 }
 
-#button {
+#sum_button, #reset_button {
     width: 350px;
     height: 75px;
     font-size: 36px;
